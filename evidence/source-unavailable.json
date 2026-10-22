@@ -1,0 +1,8 @@
+{
+  "chainId": 61999,
+  "transaction": "0x7207811c132123ce323fe46e7bc4d22e67593964e97980e07be66b246ffb7848",
+  "source": "https://publications.iodp.org/scientific_prospectus/353/353sp_10.htm",
+  "observedWebStatus": 403,
+  "observation": "The retrieval error prevented an assessment result. Use another supported official source.",
+  "explorer": "https://explorer-studio.genlayer.com/tx/0x7207811c132123ce323fe46e7bc4d22e67593964e97980e07be66b246ffb7848"
+}

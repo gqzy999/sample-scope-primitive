@@ -1,0 +1,47 @@
+{
+  "assessment": {
+    "destructive": {
+      "quote": "",
+      "status": "REVIEW"
+    },
+    "purpose": {
+      "quote": "",
+      "status": "REVIEW"
+    },
+    "return": {
+      "quote": "",
+      "status": "REVIEW"
+    },
+    "transfer": {
+      "quote": "",
+      "status": "REVIEW"
+    }
+  },
+  "history": [
+    {
+      "actor": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+      "state": "REGISTERED"
+    },
+    {
+      "actor": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+      "state": "CURATOR_REVIEW"
+    },
+    {
+      "actor": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+      "note": "TEST ONLY: authorize the software workflow for an illustrative record, not physical sample access or institutional approval. No material released.",
+      "state": "AUTHORIZED"
+    },
+    {
+      "actor": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+      "note": "TEST ONLY: no physical material held or transferred. Illustrative return/report checkpoint completed; software lifecycle verification.",
+      "state": "CLOSED"
+    }
+  ],
+  "note": "TEST ONLY: no physical material held or transferred. Illustrative return/report checkpoint completed; software lifecycle verification.",
+  "plan": "Illustrative workflow test only. Investigate Indian monsoon history using non-destructive X-ray scanning of an Expedition 353 U1443 sediment aliquot. No grinding, no consumption and no onward transfer. Keep any material in the assigned laboratory, return residues and submit research results to the repository. No sample-specific allocation or written approval has been obtained. No physical sample is being requested or released in this test.",
+  "policy_hash": "14c842e12bb08f2cfdeb08cdc9645f907d9edee56b100b64c3ab13e4bc8a483d",
+  "requester": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+  "sample": "IODP Expedition 353 / Site U1443 — illustrative workflow sample; no material held",
+  "source_url": "https://www.iodp.org/resources/access-data-and-samples",
+  "state": "CLOSED"
+}

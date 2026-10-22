@@ -1,0 +1,66 @@
+{
+  "network": "Studionet",
+  "chainId": 61999,
+  "contract": "0x0A096B8E7E0ffC377DFEb37ae34E1Fb1bAF588F0",
+  "curator": "0x38b5435eA2729346f4c0B053e974c4Be409f7f2D",
+  "sourceSha256": "d16ec4c7be6e9c0c7c49dc7da62d6b9d2e61819838db1f40d2ff0cf9a9f56dd5",
+  "requestId": "CoreRelay-353-live-003",
+  "capturedAt": "2026-10-22T09:34:01.977Z",
+  "gasPriceWei": "0x0",
+  "transactions": [
+    {
+      "action": "deployment",
+      "hash": "0xef2f9cedd21fcd0bf1fbe522932e7c6b95a62cc3ec476b6fe3e9835bc4235a34",
+      "status": "FINALIZED",
+      "execution": "FINISHED_WITH_RETURN",
+      "success": true,
+      "valueWei": "0",
+      "agreeVotes": 5,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xef2f9cedd21fcd0bf1fbe522932e7c6b95a62cc3ec476b6fe3e9835bc4235a34"
+    },
+    {
+      "action": "register",
+      "hash": "0x089cd6ad1bfe8f067efb515a46ff006cbb68ab38e53d0126c0c959a06331c545",
+      "status": "FINALIZED",
+      "execution": "FINISHED_WITH_RETURN",
+      "success": true,
+      "valueWei": "0",
+      "agreeVotes": 5,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x089cd6ad1bfe8f067efb515a46ff006cbb68ab38e53d0126c0c959a06331c545"
+    },
+    {
+      "action": "assess",
+      "hash": "0x7772b638fe4808a1ffc27bdbf4f80260ea2413d612d24b06cceb31cb1e666e4f",
+      "status": "FINALIZED",
+      "execution": "FINISHED_WITH_RETURN",
+      "success": true,
+      "valueWei": "0",
+      "agreeVotes": 3,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x7772b638fe4808a1ffc27bdbf4f80260ea2413d612d24b06cceb31cb1e666e4f"
+    },
+    {
+      "action": "decide",
+      "hash": "0xcbb0472a8f8bc2000ec6f5839040fb5803645bc7d951db0863fd1227862971fd",
+      "status": "FINALIZED",
+      "execution": "FINISHED_WITH_RETURN",
+      "success": true,
+      "valueWei": "0",
+      "agreeVotes": 3,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0xcbb0472a8f8bc2000ec6f5839040fb5803645bc7d951db0863fd1227862971fd"
+    },
+    {
+      "action": "close",
+      "hash": "0x121be337dbb0093266fd19319e62b4e10bc9427d64898426fc18d3ad86777676",
+      "status": "FINALIZED",
+      "execution": "FINISHED_WITH_RETURN",
+      "success": true,
+      "valueWei": "0",
+      "agreeVotes": 5,
+      "explorer": "https://explorer-studio.genlayer.com/tx/0x121be337dbb0093266fd19319e62b4e10bc9427d64898426fc18d3ad86777676"
+    }
+  ],
+  "limitations": [
+    "Illustrative sample only; no material was held, transferred or institutionally approved.",
+    "Transactions signed by an isolated test wallet through the SDK; browser wallet signing and visual QA are not covered."
+  ]
+}
