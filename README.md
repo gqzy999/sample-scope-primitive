@@ -55,10 +55,11 @@ For the official SDK/storage tests and semantic checks:
 ```sh
 python -m pip install -r requirements-dev.txt
 genvm-lint check contracts/sample_scope.py
+python scripts/prepare-test-sdk.py
 python -m pytest tests_direct -q
 ```
 
-The direct runner is pinned to the `v0.3.0-rc7` artifact containing the contract’s exact dependency hash. It may download that SDK artifact on first use. The four policies in `fixtures/scope_cases.json` are explicitly synthetic test data; passing fixtures is not evidence of live model accuracy.
+The direct runner is pinned to the `v0.3.0-rc7` artifact containing the contract’s exact dependency hash. `scripts/prepare-test-sdk.py` obtains the pinned official artifact through the linter and shares it with the direct runner; run it once before the SDK tests. The four policies in `fixtures/scope_cases.json` are explicitly synthetic test data; passing fixtures is not evidence of live model accuracy.
 
 The 19 lightweight tests execute the actual contract methods against a minimal mocked runtime boundary. They check access control, replay guards, malformed policy evidence, a forged leader quotation, terminal states, and the 81 combinations of the four gate statuses. They do not prove GenVM compatibility, model accuracy, live network availability, or consensus performance.
 
